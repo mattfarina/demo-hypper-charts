@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  demo-a:
+  - annotations:
+      hypper.cattle.io/namespace: demo-a
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-21T09:49:10.527401-04:00"
+    description: A Helm chart for Kubernetes
+    digest: d9bff83c9c387c080150eb00658ea0c6ce4600d9ca4ebb4b0541aa1293a74d67
+    name: demo-a
+    type: application
+    urls:
+    - demo-a-0.1.0.tgz
+    version: 0.1.0
+  demo-b:
+  - annotations:
+      hypper.cattle.io/namespace: demo-b
+      hypper.cattle.io/release-name: demo-b
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-21T09:49:10.527844-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 6e51b3ba816ba3767aafd05516f6c684ef23d5ffd1a3c77f8b42b920f1feca58
+    name: demo-b
+    type: application
+    urls:
+    - demo-b-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-04-21T09:49:10.526113-04:00"
