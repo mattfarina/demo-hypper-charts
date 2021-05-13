@@ -1,0 +1,9 @@
+apiVersion: v2
+name: demo-c
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+annotations:
+  hypper.cattle.io/release-name: demo-c
+  hypper.cattle.io/namespace: demo-c

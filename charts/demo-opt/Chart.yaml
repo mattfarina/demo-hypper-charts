@@ -1,0 +1,20 @@
+apiVersion: v2
+name: demo-opt
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+annotations:
+  hypper.cattle.io/release-name: demoit
+  hypper.cattle.io/namespace: demo
+  hypper.cattle.io/shared-dependencies: |
+    - name: demo-a
+      version: "^0.1.0"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+    - name: demo-b
+      version: "^0.1.0"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+  hypper.cattle.io/optional-dependencies: |
+    - name: demo-c
+      version: "^0.1.0"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
