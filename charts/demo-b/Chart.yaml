@@ -7,7 +7,7 @@ appVersion: "1.16.0"
 annotations:
   hypper.cattle.io/release-name: demo-b
   hypper.cattle.io/namespace: demo-b
-hypper.cattle.io/shared-dependencies: |
-  - name: demo-c
-    version: "^0.1.0"
-    repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+  hypper.cattle.io/shared-dependencies: |
+    - name: demo-c
+      version: "^0.1.0"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
