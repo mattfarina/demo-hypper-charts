@@ -6,6 +6,26 @@ entries:
       hypper.cattle.io/release-name: demoit
       hypper.cattle.io/shared-dependencies: |
         - name: demo-a
+          version: "^1.0.0"
+          repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+        - name: demo-b
+          version: "^1.0.0"
+          repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-29T16:21:11.876209-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 6a1e902ade5de0f4fdfa2746876b1de59c325377053bfad98b1a2d6004698010
+    name: demo
+    type: application
+    urls:
+    - demo-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      hypper.cattle.io/namespace: demo
+      hypper.cattle.io/release-name: demoit
+      hypper.cattle.io/shared-dependencies: |
+        - name: demo-a
           version: "^0.1.0"
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
         - name: demo-b
@@ -13,7 +33,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.634917-04:00"
+    created: "2021-07-29T16:21:11.875215-04:00"
     description: A Helm chart for Kubernetes
     digest: 63fbc32f876ae0edb840860a4e5a44414cb60cb404ce4b15b49bcae5303db6ce
     name: demo
@@ -33,7 +53,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.634044-04:00"
+    created: "2021-07-29T16:21:11.873984-04:00"
     description: A Helm chart for Kubernetes
     digest: 5afb4c63294be9523fc4a6e49e697c8a2c2b891e425a635f19d43a71f26045a2
     name: demo
@@ -46,7 +66,19 @@ entries:
       hypper.cattle.io/namespace: demo-a
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.636013-04:00"
+    created: "2021-07-29T16:21:11.878313-04:00"
+    description: A Helm chart for Kubernetes
+    digest: cf72c6ae38a801df40738d4d0f3448650a08e591f9004f5f3f1f319770364381
+    name: demo-a
+    type: application
+    urls:
+    - demo-a-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      hypper.cattle.io/namespace: demo-a
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-29T16:21:11.877198-04:00"
     description: A Helm chart for Kubernetes
     digest: d9bff83c9c387c080150eb00658ea0c6ce4600d9ca4ebb4b0541aa1293a74d67
     name: demo-a
@@ -60,11 +92,28 @@ entries:
       hypper.cattle.io/release-name: demo-b
       hypper.cattle.io/shared-dependencies: |
         - name: demo-c
+          version: "^1.0.0"
+          repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-29T16:21:11.881766-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 3960dc08bb4b0d52d36f63233e44dbd0fd0755106b2c4c79063242fe6c21e848
+    name: demo-b
+    type: application
+    urls:
+    - demo-b-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      hypper.cattle.io/namespace: demo-b
+      hypper.cattle.io/release-name: demo-b
+      hypper.cattle.io/shared-dependencies: |
+        - name: demo-c
           version: "^0.1.0"
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.638406-04:00"
+    created: "2021-07-29T16:21:11.880668-04:00"
     description: A Helm chart for Kubernetes
     digest: 85794efb4b6125f5d2494eb42d3c90d754fec79a9c236a9ef5ad638ec4935c79
     name: demo-b
@@ -77,7 +126,7 @@ entries:
       hypper.cattle.io/release-name: demo-b
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.637069-04:00"
+    created: "2021-07-29T16:21:11.8796-04:00"
     description: A Helm chart for Kubernetes
     digest: 6e51b3ba816ba3767aafd05516f6c684ef23d5ffd1a3c77f8b42b920f1feca58
     name: demo-b
@@ -91,7 +140,20 @@ entries:
       hypper.cattle.io/release-name: demo-c
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.639645-04:00"
+    created: "2021-07-29T16:21:11.88429-04:00"
+    description: A Helm chart for Kubernetes
+    digest: aa61719bdeac1c39c5e265a9a5f0d7c739532b277d760a3109648f0c939e895d
+    name: demo-c
+    type: application
+    urls:
+    - demo-c-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      hypper.cattle.io/namespace: demo-c
+      hypper.cattle.io/release-name: demo-c
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-29T16:21:11.883145-04:00"
     description: A Helm chart for Kubernetes
     digest: c54178f50e8dae65d36933fe86d50f9a98811b103f8d43760cc2a343a8f62899
     name: demo-c
@@ -116,7 +178,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-16T07:00:49.640527-04:00"
+    created: "2021-07-29T16:21:11.885481-04:00"
     description: A Helm chart for Kubernetes
     digest: 1e4764c4ccb120b709f919a4ef3e8cbdb0202e09fd2bcf22c78163f582addf1b
     name: demo-opt
@@ -124,4 +186,4 @@ entries:
     urls:
     - demo-opt-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-16T07:00:49.632277-04:00"
+generated: "2021-07-29T16:21:11.870316-04:00"
