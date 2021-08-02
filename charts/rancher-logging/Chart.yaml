@@ -1,0 +1,18 @@
+annotations:
+  hypper.cattle.io/release-name: rancher-logging
+  hypper.cattle.io/namespace: cattle-logging-system
+  hypper.cattle.io/shared-dependencies: |
+    - name: rancher-logging-crd
+      version: "^3.9.400"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+apiVersion: v1
+appVersion: 3.9.4
+description: Collects and filter logs using highly configurable CRDs. Powered by Banzai
+  Cloud Logging Operator.
+icon: https://charts.rancher.io/assets/logos/logging.svg
+keywords:
+- logging
+- monitoring
+- security
+name: rancher-logging
+version: 3.9.400
