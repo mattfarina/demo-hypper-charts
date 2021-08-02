@@ -1,0 +1,13 @@
+annotations:
+  hypper.cattle.io/release-name: fleet
+  hypper.cattle.io/namespace: fleet-system
+  hypper.cattle.io/shared-dependencies: |
+    - name: fleet-crd
+      version: "^0.3.500"
+      repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
+apiVersion: v2
+appVersion: 0.3.5
+description: Fleet Manager - GitOps at Scale
+icon: https://charts.rancher.io/assets/logos/fleet.svg
+name: fleet
+version: 0.3.500
