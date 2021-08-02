@@ -13,7 +13,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.814684-04:00"
+    created: "2021-08-02T15:06:04.81685-04:00"
     description: A Helm chart for Kubernetes
     digest: 6a1e902ade5de0f4fdfa2746876b1de59c325377053bfad98b1a2d6004698010
     name: demo
@@ -33,7 +33,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.813282-04:00"
+    created: "2021-08-02T15:06:04.816087-04:00"
     description: A Helm chart for Kubernetes
     digest: 63fbc32f876ae0edb840860a4e5a44414cb60cb404ce4b15b49bcae5303db6ce
     name: demo
@@ -53,7 +53,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.812144-04:00"
+    created: "2021-08-02T15:06:04.815311-04:00"
     description: A Helm chart for Kubernetes
     digest: 5afb4c63294be9523fc4a6e49e697c8a2c2b891e425a635f19d43a71f26045a2
     name: demo
@@ -66,7 +66,7 @@ entries:
       hypper.cattle.io/namespace: demo-a
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.817309-04:00"
+    created: "2021-08-02T15:06:04.818236-04:00"
     description: A Helm chart for Kubernetes
     digest: cf72c6ae38a801df40738d4d0f3448650a08e591f9004f5f3f1f319770364381
     name: demo-a
@@ -78,7 +78,7 @@ entries:
       hypper.cattle.io/namespace: demo-a
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.81619-04:00"
+    created: "2021-08-02T15:06:04.817572-04:00"
     description: A Helm chart for Kubernetes
     digest: d9bff83c9c387c080150eb00658ea0c6ce4600d9ca4ebb4b0541aa1293a74d67
     name: demo-a
@@ -96,7 +96,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.820586-04:00"
+    created: "2021-08-02T15:06:04.820504-04:00"
     description: A Helm chart for Kubernetes
     digest: 3960dc08bb4b0d52d36f63233e44dbd0fd0755106b2c4c79063242fe6c21e848
     name: demo-b
@@ -113,7 +113,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.819664-04:00"
+    created: "2021-08-02T15:06:04.819794-04:00"
     description: A Helm chart for Kubernetes
     digest: 85794efb4b6125f5d2494eb42d3c90d754fec79a9c236a9ef5ad638ec4935c79
     name: demo-b
@@ -126,7 +126,7 @@ entries:
       hypper.cattle.io/release-name: demo-b
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.818387-04:00"
+    created: "2021-08-02T15:06:04.819021-04:00"
     description: A Helm chart for Kubernetes
     digest: 6e51b3ba816ba3767aafd05516f6c684ef23d5ffd1a3c77f8b42b920f1feca58
     name: demo-b
@@ -140,7 +140,7 @@ entries:
       hypper.cattle.io/release-name: demo-c
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.822841-04:00"
+    created: "2021-08-02T15:06:04.822192-04:00"
     description: A Helm chart for Kubernetes
     digest: aa61719bdeac1c39c5e265a9a5f0d7c739532b277d760a3109648f0c939e895d
     name: demo-c
@@ -153,7 +153,7 @@ entries:
       hypper.cattle.io/release-name: demo-c
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.821831-04:00"
+    created: "2021-08-02T15:06:04.821392-04:00"
     description: A Helm chart for Kubernetes
     digest: c54178f50e8dae65d36933fe86d50f9a98811b103f8d43760cc2a343a8f62899
     name: demo-c
@@ -178,7 +178,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-02T14:59:58.824256-04:00"
+    created: "2021-08-02T15:06:04.822901-04:00"
     description: A Helm chart for Kubernetes
     digest: 1e4764c4ccb120b709f919a4ef3e8cbdb0202e09fd2bcf22c78163f582addf1b
     name: demo-opt
@@ -196,7 +196,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v2
     appVersion: 0.3.5
-    created: "2021-08-02T14:59:58.82549-04:00"
+    created: "2021-08-02T15:06:04.823772-04:00"
     description: Fleet Manager - GitOps at Scale
     digest: c07727b186ffe305ffaf698c744a0431f815ac131ac974283a18683f981b90d1
     icon: https://charts.rancher.io/assets/logos/fleet.svg
@@ -210,7 +210,7 @@ entries:
       hypper.cattle.io/release-name: fleet-crd
     apiVersion: v2
     appVersion: 0.3.5
-    created: "2021-08-02T14:59:58.827759-04:00"
+    created: "2021-08-02T15:06:04.825383-04:00"
     description: Fleet Manager CustomResourceDefinitions
     digest: d16470803d656a5e69879b96a5d4d9656aad12ad10063cacae309314c9d63896
     icon: https://charts.rancher.io/assets/logos/fleet.svg
@@ -228,7 +228,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v1
     appVersion: 3.9.4
-    created: "2021-08-02T14:59:58.829318-04:00"
+    created: "2021-08-02T15:06:04.82667-04:00"
     description: Collects and filter logs using highly configurable CRDs. Powered
       by Banzai Cloud Logging Operator.
     digest: 1b0fc5bdfc9850e4a6d8395434266964265a3daa922730d6654e966c5e8d1ec7
@@ -246,7 +246,7 @@ entries:
       hypper.cattle.io/namespace: cattle-logging-system
       hypper.cattle.io/release-name: rancher-logging-crd
     apiVersion: v1
-    created: "2021-08-02T14:59:58.832118-04:00"
+    created: "2021-08-02T15:06:04.829178-04:00"
     description: Installs the CRDs for rancher-logging.
     digest: 9ad6d4ae2734355ea3dfde7c2da49cb109d2e0121a54fb68161dcb0cb87fa52b
     name: rancher-logging-crd
@@ -270,7 +270,7 @@ entries:
           repository: "https://mattfarina.github.io/demo-hypper-charts/repo"
     apiVersion: v1
     appVersion: 0.38.1
-    created: "2021-08-02T14:59:58.852713-04:00"
+    created: "2021-08-02T15:06:04.850515-04:00"
     dependencies:
     - condition: grafana.enabled
       name: grafana
@@ -326,7 +326,7 @@ entries:
     description: Collects several related Helm charts, Grafana dashboards, and Prometheus
       rules combined with documentation and scripts to provide easy to operate end-to-end
       Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
-    digest: 2d6da17784d17540a9808df0149a941439c6a580a9f201b0ba7d5f0ddf41620f
+    digest: 74deb56902bb2aaae5195f4bc10125531965866d4a1f6fcfb8305b184ad32775
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -359,7 +359,7 @@ entries:
       hypper.cattle.io/namespace: cattle-monitoring-system
       hypper.cattle.io/release-name: rancher-monitoring-crd
     apiVersion: v1
-    created: "2021-08-02T14:59:58.858124-04:00"
+    created: "2021-08-02T15:06:04.855948-04:00"
     description: Installs the CRDs for rancher-monitoring.
     digest: 133686d69c28b9c291ff36bbddc4cdd822afb42da99354d218afeeb6cb65907f
     name: rancher-monitoring-crd
@@ -367,4 +367,4 @@ entries:
     urls:
     - rancher-monitoring-crd-9.4.203.tgz
     version: 9.4.203
-generated: "2021-08-02T14:59:58.809414-04:00"
+generated: "2021-08-02T15:06:04.814379-04:00"
